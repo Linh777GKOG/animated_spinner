@@ -99,3 +99,9 @@
   --duration: 2s;
   --timing: ease-in;
 }
+
+.spinner-2::after {
+  border-right-color: lightgreen;
+  --duration: 2.5s;
+  --timing: ease-out;
+}
