@@ -68,3 +68,15 @@
     color: rgba(0, 0, 0, 0.1);
   }
 }
+
+.spinner-2 {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  overflow: hidden;
+  position: relative;
+  animation: text-color 2s ease-in-out infinite alternate;
+}
